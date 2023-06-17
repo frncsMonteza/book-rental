@@ -1,7 +1,7 @@
 import React from 'react'
 import { NavLink } from "react-router-dom";
 
-const edit = () => {
+const Edit = () => {
 
     const [inpval, setINP] = React.useState({
         name: "",
@@ -68,4 +68,4 @@ const edit = () => {
   )
 }
 
-export default edit
+export default Edit
