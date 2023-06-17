@@ -6,7 +6,6 @@ const Register = () => {
 const [inpval, setINP] = React.useState({
     name: "",
     email: "",
-    name: "",
     age: "",
     mobile: "",
     work: "",
